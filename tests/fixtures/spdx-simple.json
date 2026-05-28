@@ -1,0 +1,33 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "example",
+  "packages": [
+    {
+      "name": "django",
+      "SPDXID": "SPDXRef-Package-django",
+      "versionInfo": "3.2.0",
+      "supplier": "Organization: Django Software Foundation",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/django@3.2.0"
+        }
+      ]
+    },
+    {
+      "name": "nginx",
+      "SPDXID": "SPDXRef-Package-nginx",
+      "versionInfo": "1.20.0",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:nginx:nginx:1.20.0:*:*:*:*:*:*:*"
+        }
+      ]
+    }
+  ]
+}
